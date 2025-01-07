@@ -3,37 +3,67 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Mobile App Prototype</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <header>
-      <a href="./index.html">Mobileapp</a>
-      <nav>
-        <a href="./index.html">HOME</a>
-        <a href="#features">FEATURES</a>
-        <a href="#team">TEAM</a>
-        <a href="#testimontails">TESTIMONIALS</a>
-        <a href="#contact-us">CONTACT</a>
+    <!-- ===========HEDER -->
+    <header class="heder-page">
+      <a class="header-logo" href="./index.html">Mobileapp</a>
+      <nav class="header-menu">
+        <a class="header-menu-link" href="./index.html">HOME</a>
+        <a class="header-menu-link" href="#features">FEATURES</a>
+        <a class="header-menu-link" href="#team">TEAM</a>
+        <a class="header-menu-link" href="#testimontails">TESTIMONIALS</a>
+        <a class="header-menu-link" href="#contact-us">CONTACT</a>
       </nav>
     </header>
     <main>
       <!-- ===========HERO -->
-      <section>
-        <h1>Introducing Mobileapp</h1>
-        <h2>Maecenas vitae tellus sapien. Prasent</h2>
-        <ul>
-          <li>semper scelerisque tristique a enim</li>
-          <li>Integer ut mattis nulla, eget vehicula elit</li>
-          <li>Prasent rutrum ac nunc et</li>
+      <section class="hero">
+        <h1 class="hero-title">Introducing Mobileapp</h1>
+        <h2 class="hero-description">Maecenas vitae tellus sapien. Prasent</h2>
+        <ul class="hero-list">
+          <li class="hero-item">
+            <img src="./images/icons/arrow.svg" alt="icon" class="hero-icon" />
+            <p class="hero-item-text">semper scelerisque tristique a enim</p>
+          </li>
+          <li class="hero-item">
+            <img src="./images/icons/arrow.svg" alt="icon" class="hero-icon" />
+
+            <p class="hero-item-text">
+              Integer ut mattis nulla, eget vehicula elit
+            </p>
+          </li>
+          <li class="hero-item">
+            <img src="./images/icons/arrow.svg" alt="icon" class="hero-icon" />
+            <p class="hero-item-text">Prasent rutrum ac nunc et</p>
+          </li>
         </ul>
-        <button type="button">Download</button>
+        <button class="hero-button" type="button">Download</button>
         <img
+          class="hero-img-decor"
           src="./images/hero/decor.png"
           alt="decor"
           width="541"
           height="418"
         />
         <img
+          class="hero-img"
           src="./images/hero/iPhone.png"
           alt="iPhone X Flying Mockup Left View label"
           width="467"
@@ -41,52 +71,94 @@
         />
       </section>
       <!-- ==========Section 1 KEY FEATURES-->
-      <section id="features">
-        <h2>KEY FEATURES</h2>
-        <h3>
+      <section id="features" class="features">
+        <h2 class="features-title">KEY FEATURES</h2>
+        <h3 class="features-description">
           Nunc vulputate nibh sed congue facilisis. Curabitur posuere
           scelerisque neque. In sit amet lectus non lacus sollicitudin cursus a
           vitae felis. Praesent luctus mi quis nisi interdum eleifend.
         </h3>
-        <ul>
-          <li>
-            <h4>Amet varius</h4>
-            <p>
+        <ul class="features-list">
+          <li class="features-item">
+            <img
+              class="features-item-point"
+              src="./images/section1-key-features/point.png "
+              alt="point"
+              width="28"
+              height="28"
+            />
+            <h4 class="features-item-name">Amet varius</h4>
+            <p class="features-item-description">
               Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
               Vivamus diam a iaculis malesuada
             </p>
           </li>
-          <li>
-            <h4>Amet varius</h4>
-            <p>
+          <li class="features-item">
+            <img
+              class="features-item-point"
+              src="./images/section1-key-features/point.png "
+              alt="point"
+              width="28"
+              height="28"
+            />
+            <h4 class="features-item-name">Amet varius</h4>
+            <p class="features-item-description">
               Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
               Vivamus diam a iaculis malesuada
             </p>
           </li>
-          <li>
-            <h4>Amet varius</h4>
-            <p>
+          <li class="features-item">
+            <img
+              class="features-item-point"
+              src="./images/section1-key-features/point.png "
+              alt="point"
+              width="28"
+              height="28"
+            />
+            <h4 class="features-item-name">Amet varius</h4>
+            <p class="features-item-description">
               Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
               Vivamus diam a iaculis malesuada
             </p>
           </li>
-          <li>
-            <h4>Amet varius</h4>
-            <p>
+          <li class="features-item">
+            <img
+              class="features-item-point"
+              src="./images/section1-key-features/point.png "
+              alt="point"
+              width="28"
+              height="28"
+            />
+            <h4 class="features-item-name">Amet varius</h4>
+            <p class="features-item-description">
               Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
               Vivamus diam a iaculis malesuada
             </p>
           </li>
-          <li>
-            <h4>Amet varius</h4>
-            <p>
+          <li class="features-item">
+            <img
+              class="features-item-point"
+              src="./images/section1-key-features/point.png "
+              alt="point"
+              width="28"
+              height="28"
+            />
+            <h4 class="features-item-name">Amet varius</h4>
+            <p class="features-item-description">
               Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
               Vivamus diam a iaculis malesuada
             </p>
           </li>
-          <li>
-            <h4>Amet varius</h4>
-            <p>
+          <li class="features-item">
+            <img
+              class="features-item-point"
+              src="./images/section1-key-features/point.png "
+              alt="point"
+              width="28"
+              height="28"
+            />
+            <h4 class="features-item-name">Amet varius</h4>
+            <p class="features-item-description">
               Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
               Vivamus diam a iaculis malesuada
             </p>
@@ -100,28 +172,31 @@
         />
       </section>
       <!-- ==========Section 2 WATCH THE VIDEO-->
-      <section>
-        <h2>WATCH THE VIDEO</h2>
-        <h3>
+      <section class="whatch-video">
+        <h2 class="whatch-video-title">WATCH THE VIDEO</h2>
+        <p class="whatch-video-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
           fringilla fringilla nisl congue congue. Maecenas nec condimentum
           libero, at elementum mauris. Phasellus eget nisi dapibus, ultricies
           nisl at, hendrerit risusuis ornare luctus id sollicitudin ante
           lobortis at.
-        </h3>
+        </p>
         <img
+          class="whatch-video-img"
           src="./images/icons/icon-apple.svg"
           alt="icon-apple"
           width="60"
           height="60"
         />
         <img
+          class="whatch-video-icon"
           src="./images/icons/icon-android.svg"
           alt="icon-android"
           width="60"
           height="60"
         />
         <img
+          class="whatch-video-icon"
           src="./images/section2-watch-video/section2-img.png"
           alt="phone"
           width="501"
@@ -129,68 +204,73 @@
         />
       </section>
       <!-- ==========Section 3 OUR TEAM-->
-      <section id="team">
-        <h2>OUR TEAM</h2>
-        <p>
+      <section id="team" class="team">
+        <h2 class="team-title">OUR TEAM</h2>
+        <p class="team-description">
           Nunc vulputate nibh sed congue facilisis. Curabitur posuere
           scelerisque neque. In sit amet lectus non lacus sollicitudin cursus a
           vitae felis. Praesent luctus mi quis nisi interdum eleifend.
         </p>
-        <ul>
-          <li>
+        <ul class="team-list">
+          <li class="team-item">
             <img
+              class="team-foto"
               src="./images/section3-our-team/1img.jpg"
               alt="Jon Doe"
               width="264"
               height="260"
             />
-            <h3>Jon Doe</h3>
-            <p>Managing Direcor</p>
+            <h3 class="team-name">Jon Doe</h3>
+            <p class="team-job">Managing Direcor</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
+              class="team-foto"
               src="./images/section3-our-team/2img.jpg"
               alt="Jane Doe"
               width="264"
               height="260"
             />
-            <h3>Jane Doe</h3>
-            <p>Lead Designer</p>
+            <h3 class="team-name">Jane Doe</h3>
+            <p class="team-job">Lead Designer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
+              class="team-foto"
               src="./images/section3-our-team/3img.jpg"
               alt="Jane Doe"
               width="264"
               height="260"
             />
-            <h3>Jane Doe</h3>
-            <p>Lead Developer</p>
+            <h3 class="team-name">Jane Doe</h3>
+            <p class="team-job">Lead Developer</p>
           </li>
-          <li>
+          <li class="team-item">
             <img
+              class="team-foto"
               src="./images/section3-our-team/4img.jpg"
               alt="Jon Doe"
               width="264"
               height="260"
             />
-            <h3>Jon Doe</h3>
-            <p>Sr. UI Designer</p>
+            <h3 class="team-name">Jon Doe</h3>
+            <p class="team-job">Sr. UI Designer</p>
           </li>
         </ul>
       </section>
-      <!-- ==========Section 4 WHAT OUR COSTUMER’S SAY-->
-      <section id="testimontails">
-        <h2>WHAT OUR COSTUMER`S SAY</h2>
+      <!-- ==========Section 4 WHAT OUR COSTUMER`S SAY-->
+      <section id="testimontails" class="testimontails">
+        <h2 class="testimontails-title">WHAT OUR COSTUMER`S SAY</h2>
         <img
+          class="testimontails-img"
           src="./images/section4-what-our-custumers-say/ellipse1.png"
           alt="Jon Doe"
           width="264"
           height="260"
         />
-        <h3>Jon Doe</h3>
-        <p>Company Inc.</p>
-        <p>
+        <h3 class="testimontails-name">Jon Doe</h3>
+        <p class="testimontails-job">Company Inc.</p>
+        <p class="testimontails-description">
           Vestibulum placerat nisl quis justo venenatis, et lacinia nunc
           venenatis. semper libero nec sapien condimentum dignissim. Nunc ante
           ligula, tempor in tellus in, gravida vestibulum justo. Nulla facilisi.
@@ -200,32 +280,36 @@
         </p>
       </section>
     </main>
-    <footer>
-      <h2 id="contact-us">CONTACT US</h2>
-      <h3>Get in touch with us</h3>
-      <h4>
+    <!-- ========== FOOTER-->
+    <footer class="footer-page">
+      <h2 id="contact-us" class="footer-title">CONTACT US</h2>
+      <h3 class="footer-description-name">Get in touch with us</h3>
+      <h4 class="footer-description">
         Nunc urna est, tristique et varius at, pharetra nec enim. Quisque
         rhoncus lacus fringilla nulla sollicitudin tristique.
       </h4>
-      <ul>
-        <li>
+      <ul class="footer-list">
+        <li class="footer-item">
           <img
+            class="footer-icons"
             src="./images/icons/icon1.svg"
             alt="Fecebook icon"
             width="40"
             height="40"
           />
         </li>
-        <li>
+        <li class="footer-item">
           <img
+            class="footer-icons"
             src="./images/icons/icon2.svg"
             alt="Twitter icon"
             width="40"
             height="40"
           />
         </li>
-        <li>
+        <li class="footer-item">
           <img
+            class="footer-icons"
             src="./images/icons/icon3.svg"
             alt="LinkedIn icon"
             width="40"
@@ -233,25 +317,48 @@
           />
         </li>
       </ul>
-      <address>
-        <a href="tel:+xxxxxxxxxxxx">+xx-xxxx-xxxx-xx</a>
-        <a href="mailto:goIteens@gmail.com">goIteens@gmail.com</a>
+      <address class="footer-adress">
+        <a class="footer-adress-link" href="tel:+xxxxxxxxxxxx"
+          >+xx-xxxx-xxxx-xx</a
+        >
+        <a class="footer-adress-link" href="mailto:goIteens@gmail.com"
+          >goIteens@gmail.com</a
+        >
       </address>
 
-      <form action="/submit-form" method="POST">
-        <label for="name">Name</label>
-        <input type="text" id="name" name="name" required />
+      <form class="footer-form" action="/submit-form" method="POST">
+        <label class="footer-form-name" for="name">Name</label>
+        <input
+          class="footer-form-name-input"
+          type="text"
+          id="name"
+          name="name"
+          required
+        />
         <br /><br />
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" required />
+        <label class="footer-form-email" for="email">Email</label>
+        <input
+          class="footer-form-email-input"
+          type="email"
+          id="email"
+          name="email"
+          required
+        />
         <br /><br />
-        <label for="message">Message</label>
-        <input type="text" name="message" required />
-        <button type="submit">SUBMIT</button>
+        <label class="footer-form-message" for="message">Message</label>
+        <input
+          class="footer-form-message-input"
+          type="text"
+          name="message"
+          required
+        />
+        <button class="footer-form-button" type="submit">SUBMIT</button>
       </form>
 
-      <p>© 2019 GoIteens Template. All Rights Reserved</p>
+      <p class="footer-property">
+        © 2019 GoIteens Template. All Rights Reserved
+      </p>
     </footer>
   </body>
 </html>

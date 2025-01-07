@@ -1,0 +1,283 @@
+/* =========== defolt style */
+ul,
+ol {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  cursor: pointer;
+}
+body {
+  font-family: "Inter", sans-serif;
+
+  background: #ffffff;
+  color: #000000;
+}
+/* ==========HEADER */
+.heder-page {
+  background: #06071b;
+}
+.header-logo {
+  font-weight: 400;
+  font-size: 28px;
+  color: #ffffff;
+}
+.header-menu {
+}
+.header-menu-link {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ffffff;
+}
+/* ==========HERO */
+.hero {
+  background: #06071b;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  text-shadow: rgba(0, 0, 0, 0.25);
+}
+.hero-description {
+  font-weight: 700;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.hero-list {
+}
+.hero-icon {
+}
+.hero-item {
+}
+.hero-item-text {
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+.hero-button {
+  border-radius: 5px;
+  width: 200px;
+  height: 42px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background: #06071b;
+}
+.hero-img-decor {
+}
+.hero-img {
+}
+/* ==========Section 1 KEY FEATURES */
+.features {
+}
+.features-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.features-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.features-list {
+}
+.features-item {
+}
+.features-item-point {
+}
+.features-item-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.features-item-description {
+  font-weight: 500;
+  font-size: 14px;
+}
+/* ==========Section 2 WATCH THE VIDEO */
+.whatch-video {
+  width: 1278px;
+  height: 402px;
+  background: #06071b;
+}
+.whatch-video-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.whatch-video-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.whatch-video-img {
+}
+.whatch-video-icon {
+}
+/* ==========Section 3 OUR TEAM */
+.team {
+}
+.team-title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+}
+.team-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+.team-list {
+}
+.team-item {
+  border-radius: 15px;
+  width: 288px;
+  height: 364px;
+  backdrop-filter: blur(35px);
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+.team-foto {
+}
+.team-name {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+}
+.team-job {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+  color: #ffffff;
+}
+/* ==========Section 4 WHAT OUR COSTUMER`S SAY */
+.testimontails {
+  font-weight: 700;
+  font-size: 24px;
+}
+.testimontails-title {
+}
+.testimontails-img {
+}
+.testimontails-name {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.testimontails-job {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+}
+.testimontails-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+/* ==========FOOTER */
+.footer-page {
+  width: 1280px;
+  height: 612px;
+  background: #06071b;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+}
+.footer-description-name {
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+.footer-description {
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-list {
+}
+.footer-item {
+}
+.footer-icons {
+}
+.footer-adress-link {
+}
+.footer-adress-link {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
+.footer-adress-link:hover,
+.footer-adress-link:focus {
+  background: #06071b;
+}
+.footer-form {
+}
+.footer-form-name {
+  font-weight: 500;
+  font-size: 14px;
+  color: #939eac;
+}
+.footer-form-name-input {
+  border-radius: 5px;
+  width: 288px;
+  height: 40px;
+  background: #ffffff;
+}
+.footer-form-email {
+  font-weight: 500;
+  font-size: 14px;
+  color: #939eac;
+}
+.footer-form-email-input {
+  border-radius: 5px;
+  width: 288px;
+  height: 40px;
+  background: #ffffff;
+}
+.footer-form-message {
+  font-weight: 500;
+  font-size: 14px;
+  color: #939eac;
+}
+.footer-form-message-input {
+  border-radius: 5px;
+  width: 608px;
+  height: 162px;
+  background: #ffffff;
+}
+
+.footer-form-button {
+  border-radius: 5px;
+  width: 181px;
+  height: 42px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+}
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background: #06071b;
+}
+.footer-property {
+  font-weight: 500;
+  font-size: 14px;
+  color: #ffffff;
+}
