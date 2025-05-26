@@ -21,20 +21,19 @@
     <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
-    <!-- ===========HEDER -->
-    <header class="heder-page">
-      <a class="header-logo" href="./index.html">Mobileapp</a>
-      <nav class="header-menu">
-        <a class="header-menu-link" href="./index.html">HOME</a>
-        <a class="header-menu-link" href="#features">FEATURES</a>
-        <a class="header-menu-link" href="#team">TEAM</a>
-        <a class="header-menu-link" href="#testimontails">TESTIMONIALS</a>
-        <a class="header-menu-link" href="#contact-us">CONTACT</a>
-      </nav>
-    </header>
     <main>
       <!-- ===========HERO -->
-      <section class="hero">
+      <section class="hero container">
+        <header class="heder-page">
+          <a class="header-logo" href="./index.html">Mobileapp</a>
+          <nav class="header-menu">
+            <a class="header-menu-link" href="./index.html">HOME</a>
+            <a class="header-menu-link" href="#features">FEATURES</a>
+            <a class="header-menu-link" href="#team">TEAM</a>
+            <a class="header-menu-link" href="#testimontails">TESTIMONIALS</a>
+            <a class="header-menu-link" href="#contact-us">CONTACT</a>
+          </nav>
+        </header>
         <h1 class="hero-title">Introducing Mobileapp</h1>
         <h2 class="hero-description">Maecenas vitae tellus sapien. Prasent</h2>
         <ul class="hero-list">
@@ -55,124 +54,143 @@
           </li>
         </ul>
         <button class="hero-button" type="button">Download</button>
-        <img
-          class="hero-img-decor"
-          src="./images/hero/decor.png"
-          alt="decor"
-          width="541"
-          height="418"
-        />
+
         <img
           class="hero-img"
-          src="./images/hero/iPhone.png"
+          srcset="
+            ./images/hero/hero-desktop.png    1x,
+            ./images/hero/hero-desktop@2x.png 2x
+          "
+          src="./images/hero/hero-desktop.png"
           alt="iPhone X Flying Mockup Left View label"
-          width="467"
-          height="522"
+          width="895"
+          height="533"
         />
       </section>
       <!-- ==========Section 1 KEY FEATURES-->
-      <section id="features" class="features">
+      <section id="features" class="features container">
         <h2 class="features-title">KEY FEATURES</h2>
         <h3 class="features-description">
           Nunc vulputate nibh sed congue facilisis. Curabitur posuere
           scelerisque neque. In sit amet lectus non lacus sollicitudin cursus a
           vitae felis. Praesent luctus mi quis nisi interdum eleifend.
         </h3>
-        <ul class="features-list">
-          <li class="features-item">
-            <img
-              class="features-item-point"
-              src="./images/section1-key-features/point.png "
-              alt="point"
-              width="28"
-              height="28"
-            />
-            <h4 class="features-item-name">Amet varius</h4>
-            <p class="features-item-description">
-              Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
-              Vivamus diam a iaculis malesuada
-            </p>
-          </li>
-          <li class="features-item">
-            <img
-              class="features-item-point"
-              src="./images/section1-key-features/point.png "
-              alt="point"
-              width="28"
-              height="28"
-            />
-            <h4 class="features-item-name">Amet varius</h4>
-            <p class="features-item-description">
-              Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
-              Vivamus diam a iaculis malesuada
-            </p>
-          </li>
-          <li class="features-item">
-            <img
-              class="features-item-point"
-              src="./images/section1-key-features/point.png "
-              alt="point"
-              width="28"
-              height="28"
-            />
-            <h4 class="features-item-name">Amet varius</h4>
-            <p class="features-item-description">
-              Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
-              Vivamus diam a iaculis malesuada
-            </p>
-          </li>
-          <li class="features-item">
-            <img
-              class="features-item-point"
-              src="./images/section1-key-features/point.png "
-              alt="point"
-              width="28"
-              height="28"
-            />
-            <h4 class="features-item-name">Amet varius</h4>
-            <p class="features-item-description">
-              Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
-              Vivamus diam a iaculis malesuada
-            </p>
-          </li>
-          <li class="features-item">
-            <img
-              class="features-item-point"
-              src="./images/section1-key-features/point.png "
-              alt="point"
-              width="28"
-              height="28"
-            />
-            <h4 class="features-item-name">Amet varius</h4>
-            <p class="features-item-description">
-              Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
-              Vivamus diam a iaculis malesuada
-            </p>
-          </li>
-          <li class="features-item">
-            <img
-              class="features-item-point"
-              src="./images/section1-key-features/point.png "
-              alt="point"
-              width="28"
-              height="28"
-            />
-            <h4 class="features-item-name">Amet varius</h4>
-            <p class="features-item-description">
-              Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
-              Vivamus diam a iaculis malesuada
-            </p>
-          </li>
-        </ul>
-        <img
-          src="./images/section1-key-features/section1-img.png"
-          alt="phone with a man"
-          width="396"
-          height="602"
-        />
+        <div class="features-wrapper">
+          <ul class="features-list">
+            <li class="features-item">
+              <img
+                class="features-item-point"
+                src="./images/section1-features/point.png "
+                alt="point"
+                width="28"
+                height="28"
+              />
+              <div class="features-item-wrapper">
+                <h4 class="features-item-name">Amet varius</h4>
+                <p class="features-item-description">
+                  Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                  Vivamus diam a iaculis malesuada
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <img
+                class="features-item-point"
+                src="./images/section1-features/point.png "
+                alt="point"
+                width="28"
+                height="28"
+              />
+              <div class="features-item-wrapper">
+                <h4 class="features-item-name">Amet varius</h4>
+                <p class="features-item-description">
+                  Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                  Vivamus diam a iaculis malesuada
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <img
+                class="features-item-point"
+                src="./images/section1-features/point.png "
+                alt="point"
+                width="28"
+                height="28"
+              />
+              <div class="features-item-wrapper">
+                <h4 class="features-item-name">Amet varius</h4>
+                <p class="features-item-description">
+                  Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                  Vivamus diam a iaculis malesuada
+                </p>
+              </div>
+            </li>
+          </ul>
+          <img
+            class="features-img"
+            srcset="
+              ./images/section1-features/features-desktop.png,
+              ./images/section1-features/features-desktop@2x.png 2x
+            "
+            src="./images/section1-features/features-desktop.png"
+            alt="phone with a man"
+            width="396"
+            height="602"
+          />
+          <ul class="features-list">
+            <li class="features-item">
+              <img
+                class="features-item-point"
+                src="./images/section1-features/point.png "
+                alt="point"
+                width="28"
+                height="28"
+              />
+              <div class="features-item-wrapper">
+                <h4 class="features-item-name">Amet varius</h4>
+                <p class="features-item-description">
+                  Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                  Vivamus diam a iaculis malesuada
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <img
+                class="features-item-point"
+                src="./images/section1-features/point.png "
+                alt="point"
+                width="28"
+                height="28"
+              />
+              <div class="features-item-wrapper">
+                <h4 class="features-item-name">Amet varius</h4>
+                <p class="features-item-description">
+                  Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                  Vivamus diam a iaculis malesuada
+                </p>
+              </div>
+            </li>
+            <li class="features-item">
+              <img
+                class="features-item-point"
+                src="./images/section1-features/point.png "
+                alt="point"
+                width="28"
+                height="28"
+              />
+              <div class="features-item-wrapper">
+                <h4 class="features-item-name">Amet varius</h4>
+                <p class="features-item-description">
+                  Donec posuere augue venenatis, aliquet ligula ut, tempus quam.
+                  Vivamus diam a iaculis malesuada
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- ==========Section 2 WATCH THE VIDEO-->
-      <section class="whatch-video">
+      <!-- <section class="whatch-video container section-paddings">
         <h2 class="whatch-video-title">WATCH THE VIDEO</h2>
         <p class="whatch-video-description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
@@ -202,9 +220,9 @@
           width="501"
           height="285"
         />
-      </section>
+      </section> -->
       <!-- ==========Section 3 OUR TEAM-->
-      <section id="team" class="team">
+      <!-- <section id="team" class="team container">
         <h2 class="team-title">OUR TEAM</h2>
         <p class="team-description">
           Nunc vulputate nibh sed congue facilisis. Curabitur posuere
@@ -257,9 +275,12 @@
             <p class="team-job">Sr. UI Designer</p>
           </li>
         </ul>
-      </section>
+      </section> -->
       <!-- ==========Section 4 WHAT OUR COSTUMER`S SAY-->
-      <section id="testimontails" class="testimontails">
+      <!-- <section
+        id="testimontails"
+        class="testimontails container section-paddings"
+      >
         <h2 class="testimontails-title">WHAT OUR COSTUMER`S SAY</h2>
         <img
           class="testimontails-img"
@@ -278,10 +299,10 @@
           et vehicula leo. Vivamus hendrerit sit amet ante a tempus. Aenean
           gravida massa et ante pulvinar, id
         </p>
-      </section>
+      </section> -->
     </main>
     <!-- ========== FOOTER-->
-    <footer class="footer-page">
+    <!-- <footer class="footer-page container">
       <h2 id="contact-us" class="footer-title">CONTACT US</h2>
       <h3 class="footer-description-name">Get in touch with us</h3>
       <h4 class="footer-description">
@@ -359,6 +380,6 @@
       <p class="footer-property">
         © 2019 GoIteens Template. All Rights Reserved
       </p>
-    </footer>
+    </footer> -->
   </body>
 </html>
