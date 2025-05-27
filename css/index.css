@@ -35,10 +35,10 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
-.section-paddings {
+/* .section-paddings {
   padding-top: 40px;
   padding-bottom: 40px;
-}
+} */
 /* ==========HERO */
 .heder-page {
   backdrop-filter: blur(35px);
@@ -73,8 +73,8 @@ body {
 .hero {
   background: #06071b;
   max-width: 1280px;
-  height: 744px;
-  /* height: 684px; */
+  /* height: 744px; */
+  height: 684px;
 
   padding-top: 26px;
   position: relative;
@@ -142,6 +142,7 @@ body {
   width: 971px;
   height: 838px;
   padding-top: 50px;
+  margin-bottom: 100px;
 }
 .features-title {
   font-weight: 700;
@@ -196,18 +197,35 @@ body {
   width: 1278px;
   height: 402px;
   background: #06071b;
+  display: flex;
+  justify-content: space-between;
+}
+.whatch-video-wrapper {
+  padding-top: 60px;
 }
 .whatch-video-title {
   font-weight: 700;
   font-size: 24px;
   color: #ffffff;
+  padding-bottom: 20px;
 }
 .whatch-video-description {
   font-weight: 500;
   font-size: 16px;
   color: #ffffff;
+  max-width: 480px;
+  padding-bottom: 40px;
+}
+.whatch-video-icon-box {
+  display: flex;
+  gap: 20px;
 }
 .whatch-video-img {
+  width: 501px;
+  height: 282px;
+  padding-right: 55px;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .whatch-video-icon {
 }
