@@ -5,13 +5,17 @@ h3,
 h4,
 h5,
 h6,
-p,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 ul,
 ol {
-  list-style: none;
   margin-top: 0;
   margin-bottom: 0;
   padding-left: 0;
+  list-style: none;
 }
 a {
   color: inherit;
@@ -35,10 +39,10 @@ body {
   padding-left: 16px;
   padding-right: 16px;
 }
-/* .section-paddings {
+.section-paddings {
   padding-top: 40px;
   padding-bottom: 40px;
-} */
+}
 /* ==========HERO */
 .heder-page {
   backdrop-filter: blur(35px);
@@ -70,7 +74,7 @@ body {
   padding-bottom: 28px;
 }
 
-.hero {
+.hero-page {
   background: #06071b;
   max-width: 1280px;
   /* height: 744px; */
@@ -138,7 +142,7 @@ body {
 }
 
 /* ==========Section 1 KEY FEATURES */
-.features {
+.features-page {
   width: 971px;
   height: 838px;
   padding-top: 50px;
@@ -193,13 +197,18 @@ body {
   min-width: 220px;
 }
 /* ==========Section 2 WATCH THE VIDEO */
-.whatch-video {
+.whatch-video-page {
   width: 1278px;
   height: 402px;
   background: #06071b;
   display: flex;
   justify-content: space-between;
 }
+.whatch-video-paddings {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
 .whatch-video-wrapper {
   padding-top: 60px;
 }
@@ -242,8 +251,15 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  max-width: 886px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .team-list {
+  display: flex;
+  justify-content: space-between;
 }
 .team-item {
   border-radius: 15px;
@@ -253,12 +269,17 @@ body {
   background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
 }
 .team-foto {
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-top: 14px;
 }
 .team-name {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
   color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 12px;
 }
 .team-job {
   font-weight: 500;
@@ -268,11 +289,18 @@ body {
   color: #ffffff;
 }
 /* ==========Section 4 WHAT OUR COSTUMER`S SAY */
-.testimontails {
-  font-weight: 700;
-  font-size: 24px;
+.testimontails-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 670px;
 }
 .testimontails-title {
+  font-weight: 700;
+  font-size: 24px;
+  padding-top: 104px;
+  padding-bottom: 34px;
 }
 .testimontails-img {
 }
@@ -280,6 +308,8 @@ body {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
+  padding-top: 16px;
+  padding-bottom: 12px;
 }
 .testimontails-job {
   font-weight: 500;
@@ -292,6 +322,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
+  padding-top: 38px;
+  width: 760px;
 }
 /* ==========FOOTER */
 .footer-page {
