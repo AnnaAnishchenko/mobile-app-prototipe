@@ -86,7 +86,7 @@
       <!-- ==========Section 1 KEY FEATURES-->
       <section id="features" class="features section-paddings">
         <div class="container features-page">
-          <h2 class="features-title">KEY FEATURES</h2>
+          <h2 class="section-title">KEY FEATURES</h2>
           <h3 class="features-description">
             Nunc vulputate nibh sed congue facilisis. Curabitur posuere
             scelerisque neque. In sit amet lectus non lacus sollicitudin cursus
@@ -211,7 +211,7 @@
       <section class="whatch-video whatch-video-paddings">
         <div class="container whatch-video-page">
           <div class="whatch-video-wrapper">
-            <h2 class="whatch-video-title">WATCH THE VIDEO</h2>
+            <h2 class="whatch-video-title section-title">WATCH THE VIDEO</h2>
             <p class="whatch-video-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Suspendisse fringilla fringilla nisl congue congue. Maecenas nec
@@ -246,7 +246,7 @@
       <!-- ==========Section 3 OUR TEAM-->
       <section id="team" class="team section-paddings">
         <div class="container">
-          <h2 class="team-title">OUR TEAM</h2>
+          <h2 class="section-title">OUR TEAM</h2>
           <p class="team-description">
             Nunc vulputate nibh sed congue facilisis. Curabitur posuere
             scelerisque neque. In sit amet lectus non lacus sollicitudin cursus
@@ -318,8 +318,10 @@
       </section>
       <!-- ==========Section 4 WHAT OUR COSTUMER`S SAY-->
       <section id="testimontails" class="testimontails">
-        <div class="container testimontails-wrapper">
-          <h2 class="testimontails-title">WHAT OUR COSTUMER`S SAY</h2>
+        <div class="container testimontails-page">
+          <h2 class="testimontails-title section-title">
+            WHAT OUR COSTUMER`S SAY
+          </h2>
           <img
             class="testimontails-img"
             srcset="
@@ -345,84 +347,93 @@
       </section>
     </main>
     <!-- ========== FOOTER-->
-    <!-- <footer class="footer-page ">
-      <h2 id="contact-us" class="footer-title">CONTACT US</h2>
-      <h3 class="footer-description-name">Get in touch with us</h3>
-      <h4 class="footer-description">
-        Nunc urna est, tristique et varius at, pharetra nec enim. Quisque
-        rhoncus lacus fringilla nulla sollicitudin tristique.
-      </h4>
-      <ul class="footer-list">
-        <li class="footer-item">
-          <img
-            class="footer-icons"
-            src="./images/icons/icon1.svg"
-            alt="Fecebook icon"
-            width="40"
-            height="40"
-          />
-        </li>
-        <li class="footer-item">
-          <img
-            class="footer-icons"
-            src="./images/icons/icon2.svg"
-            alt="Twitter icon"
-            width="40"
-            height="40"
-          />
-        </li>
-        <li class="footer-item">
-          <img
-            class="footer-icons"
-            src="./images/icons/icon3.svg"
-            alt="LinkedIn icon"
-            width="40"
-            height="40"
-          />
-        </li>
-      </ul>
-      <address class="footer-adress">
-        <a class="footer-adress-link" href="tel:+xxxxxxxxxxxx"
-          >+xx-xxxx-xxxx-xx</a
-        >
-        <a class="footer-adress-link" href="mailto:goIteens@gmail.com"
-          >goIteens@gmail.com</a
-        >
-      </address>
+    <footer class="footer">
+      <div class="container footer-page">
+        <h2 id="contact-us" class="footer-title section-title">CONTACT US</h2>
+        <div class="footer-wrapper">
+          <div class="footer-info">
+            <h3 class="footer-description-name">Get in touch with us</h3>
+            <h4 class="footer-description">
+              Nunc urna est, tristique et varius at, pharetra nec enim. Quisque
+              rhoncus lacus fringilla nulla sollicitudin tristique.
+            </h4>
 
-      <form class="footer-form" action="/submit-form" method="POST">
-        <label class="footer-form-name" for="name">Name</label>
-        <input
-          class="footer-form-name-input"
-          type="text"
-          id="name"
-          name="name"
-          required
-        />
-        <br /><br />
+            <ul class="footer-list">
+              <li class="footer-item">
+                <img
+                  class="footer-icons"
+                  src="./images/icons/icon1.svg"
+                  alt="Fecebook icon"
+                  width="40"
+                  height="40"
+                />
+              </li>
+              <li class="footer-item">
+                <img
+                  class="footer-icons"
+                  src="./images/icons/icon2.svg"
+                  alt="Twitter icon"
+                  width="40"
+                  height="40"
+                />
+              </li>
+              <li class="footer-item">
+                <img
+                  class="footer-icons"
+                  src="./images/icons/icon3.svg"
+                  alt="LinkedIn icon"
+                  width="40"
+                  height="40"
+                />
+              </li>
+            </ul>
+            <address class="footer-adress">
+              <a class="footer-adress-link" href="tel:+xxxxxxxxxxxx"
+                >+xx-xxxx-xxxx-xx</a
+              >
+              <a class="footer-adress-link" href="mailto:goIteens@gmail.com"
+                >goIteens@gmail.com</a
+              >
+            </address>
+          </div>
+          <div class="footer-form-wrapper">
+            <form class="footer-form" action="/submit-form" method="POST">
+              <div class="footer-form-wrapper-info">
+                <input
+                  class="footer-form-input"
+                  type="text"
+                  id="name"
+                  name="name"
+                  placeholder="Name"
+                  required
+                />
+                <input
+                  class="footer-form-input"
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Email"
+                  required
+                />
+              </div>
 
-        <label class="footer-form-email" for="email">Email</label>
-        <input
-          class="footer-form-email-input"
-          type="email"
-          id="email"
-          name="email"
-          required
-        />
-        <br /><br />
-        <label class="footer-form-message" for="message">Message</label>
-        <input
-          class="footer-form-message-input"
-          type="text"
-          name="message"
-          required
-        />
-        <button class="footer-form-button" type="submit">SUBMIT</button>
-      </form>
+              <textarea
+                class="footer-form-input footer-form-message-input"
+                name="message"
+                placeholder="Message"
+                required
+              ></textarea>
 
-      <p class="footer-property">
-        © 2019 GoIteens Template. All Rights Reserved
-      </p>
-    </footer> -->
+              <button class="footer-form-button" type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+
+        <p class="footer-property">
+          © 2019 GoIteens Template. All Rights Reserved
+          ::lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
