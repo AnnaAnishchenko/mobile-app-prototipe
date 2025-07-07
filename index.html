@@ -73,19 +73,8 @@
             </ul>
             <button class="hero-button" type="button">Download</button>
           </div>
-          <!-- <img
-            class="hero-img"
-            srcset="
-              ./images/hero/hero-desktop.png    1x,
-              ./images/hero/hero-desktop@2x.png 2x
-            "
-            src="./images/hero/hero-desktop.png"
-            alt="iPhone X Flying Mockup Left View label"
-            width="895"
-            height="533"
-          /> -->
-          <picture>
-            <!-- Десктопи 1158px+ -->
+
+          <picture class="hero-picture">
             <source
               srcset="
                 ./images/hero/hero-desktop.png    1x,
@@ -93,8 +82,6 @@
               "
               media="(min-width: 1280px)"
             />
-
-            <!-- Планшети 768px+ -->
             <source
               srcset="
                 ./images/hero/hero-tablet.png    1x,
@@ -103,7 +90,6 @@
               media="(min-width: 768px)"
             />
 
-            <!-- Мобільні пристрої менше 768px -->
             <source
               srcset="
                 ./images/hero/hero-mobile.png    1x,
@@ -111,8 +97,6 @@
               "
               media="(max-width: 767px)"
             />
-
-            <!-- Фолбекне зображення, якщо <source> не підтримується -->
             <img
               class="hero-img"
               src="./images/hero/hero-mobile.png"
@@ -123,8 +107,9 @@
           </picture>
         </div>
       </section>
+
       <!-- ==========Section 1 KEY FEATURES-->
-      <!-- <section id="features" class="features section-paddings">
+      <section id="features" class="features section-paddings">
         <div class="container features-page">
           <h2 class="section-title">KEY FEATURES</h2>
           <h3 class="features-description">
@@ -132,57 +117,8 @@
             scelerisque neque. In sit amet lectus non lacus sollicitudin cursus
             a vitae felis. Praesent luctus mi quis nisi interdum eleifend.
           </h3>
+
           <div class="features-wrapper">
-            <ul class="features-list">
-              <li class="features-item">
-                <img
-                  class="features-item-point"
-                  src="./images/section1-features/point.png "
-                  alt="point"
-                  width="28"
-                  height="28"
-                />
-                <div class="features-item-wrapper">
-                  <h4 class="features-item-name">Amet varius</h4>
-                  <p class="features-item-description">
-                    Donec posuere augue venenatis, aliquet ligula ut, tempus
-                    quam. Vivamus diam a iaculis malesuada
-                  </p>
-                </div>
-              </li>
-              <li class="features-item">
-                <img
-                  class="features-item-point"
-                  src="./images/section1-features/point.png "
-                  alt="point"
-                  width="28"
-                  height="28"
-                />
-                <div class="features-item-wrapper">
-                  <h4 class="features-item-name">Amet varius</h4>
-                  <p class="features-item-description">
-                    Donec posuere augue venenatis, aliquet ligula ut, tempus
-                    quam. Vivamus diam a iaculis malesuada
-                  </p>
-                </div>
-              </li>
-              <li class="features-item">
-                <img
-                  class="features-item-point"
-                  src="./images/section1-features/point.png "
-                  alt="point"
-                  width="28"
-                  height="28"
-                />
-                <div class="features-item-wrapper">
-                  <h4 class="features-item-name">Amet varius</h4>
-                  <p class="features-item-description">
-                    Donec posuere augue venenatis, aliquet ligula ut, tempus
-                    quam. Vivamus diam a iaculis malesuada
-                  </p>
-                </div>
-              </li>
-            </ul>
             <img
               class="features-img"
               srcset="
@@ -191,10 +127,59 @@
               "
               src="./images/section1-features/features-desktop.png"
               alt="phone with a man"
-              width="396"
-              height="602"
+              width="280"
+              height="409"
             />
             <ul class="features-list">
+              <li class="features-item">
+                <img
+                  class="features-item-point"
+                  src="./images/section1-features/point.png "
+                  alt="point"
+                  width="28"
+                  height="28"
+                />
+                <div class="features-item-wrapper">
+                  <h4 class="features-item-name">Amet varius</h4>
+                  <p class="features-item-description">
+                    Donec posuere augue venenatis, aliquet ligula ut, tempus
+                    quam. Vivamus diam a iaculis malesuada
+                  </p>
+                </div>
+              </li>
+              <li class="features-item">
+                <img
+                  class="features-item-point"
+                  src="./images/section1-features/point.png "
+                  alt="point"
+                  width="28"
+                  height="28"
+                />
+                <div class="features-item-wrapper">
+                  <h4 class="features-item-name">Amet varius</h4>
+                  <p class="features-item-description">
+                    Donec posuere augue venenatis, aliquet ligula ut, tempus
+                    quam. Vivamus diam a iaculis malesuada
+                  </p>
+                </div>
+              </li>
+              <li class="features-item">
+                <img
+                  class="features-item-point"
+                  src="./images/section1-features/point.png "
+                  alt="point"
+                  width="28"
+                  height="28"
+                />
+                <div class="features-item-wrapper">
+                  <h4 class="features-item-name">Amet varius</h4>
+                  <p class="features-item-description">
+                    Donec posuere augue venenatis, aliquet ligula ut, tempus
+                    quam. Vivamus diam a iaculis malesuada
+                  </p>
+                </div>
+              </li>
+
               <li class="features-item">
                 <img
                   class="features-item-point"
@@ -246,7 +231,7 @@
             </ul>
           </div>
         </div>
-      </section> -->
+      </section>
       <!-- ==========Section 2 WATCH THE VIDEO-->
       <!-- <section class="whatch-video whatch-video-paddings">
         <div class="container whatch-video-page">
