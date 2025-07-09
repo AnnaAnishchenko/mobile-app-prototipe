@@ -155,10 +155,10 @@ body {
 }
 
 .features-description {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+  /* text-align: center; */
   padding-top: 100px;
   padding-bottom: 80px;
   max-width: 836px;
@@ -182,11 +182,11 @@ body {
   padding-left: 11px;
   align-items: flex-start;
 }
-.features-item {
+/* .features-item {
   display: flex;
-}
+} */
 
-.features-item-name {
+/* .features-item-name {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.5;
@@ -196,9 +196,9 @@ body {
   font-weight: 500;
   font-size: 14px;
   min-width: 220px;
-}
+} */
 /* ==========Section 2 WATCH THE VIDEO */
-.whatch-video-page {
+/* .whatch-video-page {
   width: 1278px;
   height: 402px;
   background: #06071b;
@@ -208,36 +208,38 @@ body {
 .whatch-video-paddings {
   padding-top: 60px;
   padding-bottom: 40px;
-}
+} */
 
-.whatch-video-wrapper {
+/* .whatch-video-wrapper {
   padding-top: 60px;
-}
-.whatch-video-title {
+} */
+/* .whatch-video-title {
   color: #ffffff;
   padding-bottom: 20px;
   text-align: start;
-}
-.whatch-video-description {
-  font-weight: 500;
+} */
+/* .whatch-video-description {
+ font-weight: 500; 
   font-size: 16px;
   color: #ffffff;
   max-width: 480px;
   padding-bottom: 40px;
-}
-.whatch-video-icon-box {
+} 
+/* .whatch-video-icon-box {
   display: flex;
   gap: 20px;
-}
-.whatch-video-img {
+} */
+/* .whatch-video-img {
   width: 501px;
   height: 282px;
   padding-right: 55px;
   margin-top: auto;
   margin-bottom: auto;
-}
-.whatch-video-icon {
-}
+} */
+
+
+
+
 /* ==========Section 3 OUR TEAM */
 .team {
 }
