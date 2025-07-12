@@ -436,12 +436,14 @@ body {
   .whatch-video-img {
     width: 401px;
     height: 258px;
-    display: block;
-    margin-top: auto;
-    margin-bottom: auto;
+  }
+  .whatch-video-picture {
+    display: flex;
+    justify-content: center;
   }
   .whatch-video-wrapper {
     padding-top: 80px;
+    display: flex;
   }
   .whatch-video-description {
     font-size: 16px;
@@ -458,12 +460,21 @@ body {
     display: flex;
     justify-content: space-between;
   }
+  .whatch-video-description {
+    text-align: start;
+    width: 480px;
+  }
+
   .whatch-video-img {
     width: 501px;
     height: 282px;
     padding-right: 55px;
     margin-top: auto;
     margin-bottom: auto;
+  }
+  .whatch-video-picture {
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
   .whatch-video-wrapper {
     padding-top: 60px;
@@ -472,5 +483,103 @@ body {
   .whatch-video-title {
     padding-bottom: 20px;
     text-align: start;
+  }
+}
+/* ==========Section 3 OUR TEAM */
+/* ====== mobile */
+.team-description {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  max-width: 280px;
+  padding-top: 24px;
+  padding-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.team-list {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.team-item {
+  border-radius: 15px;
+  width: 280px;
+  height: 413px;
+  backdrop-filter: blur(35px);
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+}
+.team-foto {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  border-radius: 15px;
+}
+.team-name {
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 24px;
+  padding-bottom: 12px;
+}
+.team-job {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  text-align: center;
+  color: #ffffff;
+}
+/* ====== tablet */
+@media screen and (min-width: 768px) {
+  .team-description {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 704px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .team-list {
+    display: grid;
+    grid-template-columns: repeat(2, 336px);
+    column-gap: 32px;
+    row-gap: 40px;
+    justify-content: center;
+  }
+  .team-item {
+    width: 336px;
+    height: 409px;
+  }
+  .team-foto {
+    margin-top: 20px;
+    width: 296px;
+    height: 299px;
+  }
+}
+
+/* ====== desktop */
+@media screen and (min-width: 1280px) {
+  .team-description {
+    max-width: 886px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .team-list {
+    display: flex;
+    flex-direction: row;
+  }
+  .team-item {
+    width: 288px;
+    height: 364px;
+  }
+  .team-foto {
+    margin-top: 14px;
+    width: 264px;
+    height: 260px;
+  }
+  .team-name {
+    padding-top: 20px;
   }
 }

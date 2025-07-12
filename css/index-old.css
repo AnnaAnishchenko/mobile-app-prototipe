@@ -245,47 +245,47 @@ body {
 }
 
 .team-description {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  text-align: center;
+  /* font-weight: 500; */
+  /* font-size: 16px;
+  line-height: 1.5; */
+  /* text-align: center; */
   max-width: 886px;
   padding-top: 80px;
   padding-bottom: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 .team-list {
   display: flex;
   justify-content: space-between;
 }
 .team-item {
-  border-radius: 15px;
+  /* border-radius: 15px; */
   width: 288px;
   height: 364px;
-  backdrop-filter: blur(35px);
-  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  /* backdrop-filter: blur(35px); */
+  /* background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%); */
 }
 .team-foto {
-  margin-left: 12px;
-  margin-right: 12px;
+  /* margin-left: 12px;
+  margin-right: 12px; */
   margin-top: 14px;
 }
 .team-name {
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  color: #ffffff;
+  /* font-weight: 700; */
+  /* font-size: 18px; */
+  /* text-align: center; */
+  /* color: #ffffff; */
   padding-top: 20px;
-  padding-bottom: 12px;
+  /* padding-bottom: 12px; */
 }
-.team-job {
+/* .team-job {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
   text-align: center;
   color: #ffffff;
-}
+} */
 /* ==========Section 4 WHAT OUR COSTUMER`S SAY */
 .testimonials-page {
   display: flex;
