@@ -471,22 +471,42 @@
         </div>
       </section>
       <!-- ==========Section 4 WHAT OUR COSTUMER`S SAY-->
-      <!-- <section id="testimonials" class="testimonials">
+      <section id="testimonials" class="testimonials">
         <div class="container testimonials-page">
           <h2 class="testimonials-title section-title">
             WHAT OUR COSTUMER`S SAY
           </h2>
-          <img
-            class="testimonials-img"
-            srcset="
-              ./images/section4-testimonials/testimonials-desktop.png,
-              ./images/section4-testimonials/testimonials-desktop@2x.png 2x
-            "
-            src="./images/section4-testimonials/testimonials-desktop.png"
-            alt="Jon Doe"
-            width="155"
-            height="167"
-          />
+                 <picture class="testimonials-picture">
+            <source
+              srcset="
+                ./images/section4-testimontails/testimontails-desktop.png,
+              ./images/section4-testimontails/testimontails-desktop@2x.png 2x
+              "
+              media="(min-width: 1280px)"
+            />
+            <source
+              srcset="
+                ./images/section4-testimontails/testimontails-tablet.png,
+              ./images/section4-testimontails/testimontails-tablet@2x.png 2x
+              "
+              media="(min-width: 768px)"
+            />
+
+            <source
+              srcset="
+                ./images/section4-testimontails/testimontails-mobile.png,
+              ./images/section4-testimontails/testimontails-mobile@2x.png 2x
+              "
+              media="(max-width: 767px)"
+            />
+            <img
+              class="testimonials-img"
+              src="./images/section4-testimontails/testimontails-mobile.png,"
+              alt="Jon Doe"
+              width="181"
+              height="181"
+            />
+          </picture>
           <h3 class="testimonials-name">Jon Doe</h3>
           <p class="testimonials-job">Company Inc.</p>
           <p class="testimonials-description">
@@ -498,7 +518,7 @@
             tempus. Aenean gravida massa et ante pulvinar, id
           </p>
         </div>
-      </section> -->
+      </section>
     </main>
     <!-- ========== FOOTER-->
     <!-- <footer class="footer">

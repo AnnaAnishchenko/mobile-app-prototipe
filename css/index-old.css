@@ -288,10 +288,10 @@ body {
 } */
 /* ==========Section 4 WHAT OUR COSTUMER`S SAY */
 .testimonials-page {
-  display: flex;
-  flex-direction: column;
+   /* display: flex; */
+  /* flex-direction: column; */
   justify-content: center;
-  align-items: center;
+  /* align-items: center;  */
   height: 670px;
 }
 .testimonials-title {
@@ -299,25 +299,28 @@ body {
   padding-bottom: 34px;
 }
 .testimonials-img {
+  border-radius: 100%;
+  width: 181px;
+  height: 181px;
 }
 .testimonials-name {
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 16px;
-  padding-bottom: 12px;
+  /* font-weight: 700; */
+  /* font-size: 18px; */
+  /* text-align: center;  */
+  padding-top: 18px;
+  /* padding-bottom: 12px; */
 }
 .testimonials-job {
-  font-weight: 500;
+  /* font-weight: 500;
   font-size: 14px;
   line-height: 1.71;
-  text-align: center;
+  text-align: center; */
 }
 .testimonials-description {
-  font-weight: 500;
+  /* font-weight: 500; */
   font-size: 16px;
   line-height: 1.5;
-  text-align: center;
+  /* text-align: center; */
   padding-top: 38px;
   width: 760px;
 }
