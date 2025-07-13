@@ -585,36 +585,35 @@ body {
 }
 /* ==========Section 4 WHAT OUR COSTUMER`S SAY */
 /* ====== mobile */
-.testimonials-page {
+.testimontails-page {
   display: flex;
   flex-direction: column;
-
   align-items: center;
   justify-content: flex-start;
   height: 658px;
 }
-.testimonials-title {
+.testimontails-title {
   padding-bottom: 40px;
 }
-.testimonials-img {
+.testimontails-img {
   border-radius: 100%;
   width: 181px;
   height: 181px;
 }
-.testimonials-name {
+.testimontails-name {
   font-weight: 700;
   font-size: 18px;
   text-align: center;
   padding-top: 20px;
   padding-bottom: 12px;
 }
-.testimonials-job {
+.testimontails-job {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
   text-align: center;
 }
-.testimonials-description {
+.testimontails-description {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.7;
@@ -624,17 +623,17 @@ body {
 }
 /* ====== tablet */
 @media screen and (min-width: 768px) {
-  .testimonials-page {
+  .testimontails-page {
     height: 634px;
   }
-  .testimonials-title {
+  .testimontails-title {
     padding-top: 45px;
     padding-bottom: 40px;
   }
-  .testimonials-name {
+  .testimontails-name {
     font-size: 18px;
   }
-  .testimonials-description {
+  .testimontails-description {
     font-size: 16px;
     line-height: 1.5;
     padding-top: 40px;
@@ -644,18 +643,18 @@ body {
 
 /* ====== desktop */
 @media screen and (min-width: 1280px) {
-  .testimonials-page {
+  .testimontails-page {
     height: 670px;
   }
-  .testimonials-title {
+  .testimontails-title {
     padding-top: 104px;
     padding-bottom: 33px;
   }
-  .testimonials-img {
+  .testimontails-img {
     width: 155px;
     height: 167px;
   }
-  .testimonials-description {
+  .testimontails-description {
     padding-top: 38px;
     width: 760px;
   }
