@@ -1042,28 +1042,76 @@ body {
   font-size: 24px;
   line-height: 1.17;
   color: #ffffff;
+  padding-bottom: 28px;
 }
 .modal-wrapper {
   display: flex;
   gap: 22px;
 }
+
 .modal-box {
+  position: relative;
   border-radius: 6px;
   width: 233px;
   height: 394px;
+  display: flex;
+  flex-direction: column;
+  padding: 2px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
 }
-.modal-box .is-active {
+
+.modal-box::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background: #06071b;
+  border-radius: 4px;
+  z-index: 1;
 }
+
+.modal-box > * {
+  position: relative;
+  z-index: 2;
+}
+
+.modal-box.is-active {
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  padding: 0;
+}
+
+.modal-box.is-active::before {
+  display: none;
+}
+
 .modal-box-icon {
   fill: #ffffff;
-  align-items: center;
+  display: block;
+  margin: 0 auto;
+  padding-top: 28px;
 }
 .modal-box-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-  fill: #ffffff;
+  color: #ffffff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 auto;
 }
+.modal-box-list {
+  display: flex;
+  gap: 12px;
+  flex-direction: column;
+}
+.modal-box-item {
+  display: flex;
+  gap: 4px;
+  padding-left: 20px;
+}
+
 .modal-box-item-icon {
   fill: #ffffff;
 }
@@ -1072,6 +1120,7 @@ body {
   font-size: 14px;
   line-height: 1.7;
   color: #ffffff;
+  width: 154px;
 }
 .modal-info {
   font-weight: 500;
@@ -1089,18 +1138,42 @@ body {
   height: 236px;
   justify-content: center;
 }
+
 .modal-box-info-list {
   min-width: 244px;
   height: 236px;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding-top: 20px;
+  padding: 2px;
+  background: linear-gradient(99deg, #00c5eb 0%, #b544fe 100%);
+  position: relative;
 }
+
+.modal-box-info-list::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  bottom: 2px;
+  left: 2px;
+  background: #06071b;
+  border-radius: 4px;
+  z-index: 1;
+}
+
+.modal-box-info-list > * {
+  position: relative;
+  z-index: 2;
+}
+
 .modal-box-info-item {
   padding-left: 20px;
   width: 190px;
   height: 34px;
+  display: flex;
+  gap: 8px;
+  padding-top: 20px;
 }
 .modal-box-description {
   font-weight: 400;
@@ -1111,6 +1184,9 @@ body {
   font-weight: 400;
   font-size: 12px;
   color: #1ab9fd;
+}
+.modal-box-info-icon {
+  fill: #ffffff;
 }
 .hero-button {
   border-radius: 5px;
